@@ -1,0 +1,2 @@
+#!/bin/sh
+chrome -app=https://web.telegram.org/k/

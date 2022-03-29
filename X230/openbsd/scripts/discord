@@ -1,0 +1,2 @@
+#!/bin/sh
+chrome -app=https://discord.com/channels/@me
