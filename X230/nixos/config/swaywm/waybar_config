@@ -1,0 +1,38 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 28,
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["battery", "temperature", "clock", "tray"],
+    "sway/workspaces": {
+         "disable-scroll": true,
+         "all-outputs": true,
+         "format": "{icon}",
+         "format-icons": {
+             "1": "一",
+             "2": "二",
+             "3": "三",
+             "4": "四",
+             "5": "五",
+             "6": "六",
+             "7": "七",
+             "8": "八",
+             "9": "九",
+             "10": "十"
+         }
+    },
+    "sway/window": {
+        "max-length": 50
+    },
+    "battery": {
+        "format": "{capacity}%"
+    },
+    "clock": {
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    }
+}
